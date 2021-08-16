@@ -1,0 +1,99 @@
+html{
+    height: 100%;
+}
+
+body{
+background-image: url(/images/_LFS8221.jpg);
+background-size:cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+div.content{
+    margin-left: auto;
+    margin-right:initial;
+    width: 50%;
+}
+
+header{
+    width: auto;
+    height: 100px;
+    background-color: rgba(250, 249, 249, 0.158);
+    text-align: right;
+}
+
+#burger{
+    width: 50px;
+    height: 50px;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.158);
+    font-size: 18px;
+    font-family: Cairo, Helvetica, sans-serif;
+    padding: 10px; 
+    margin-left: 70%;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    width: auto;
+    height: 750px;
+    background-color: rgba(167, 122, 122, 0.185);
+}
+
+footer{
+    width: auto;
+    height: 50px;
+}
+
+#socialMedia{
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+#500px{
+    width: 32px;
+    height: 32px;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+
+#instagram{
+    width: 38px;
+    height: 38px;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+
+#facebook{
+    width: 38px;
+    height: 38px;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+
+#gurushots{
+    width: 32px;
+    height: 32px;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+
+#youtube{
+    width: 38px;
+    height: 38px;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+
+#behance{
+    width: 32px;
+    height: 32px;
+    margin-left: 15px;
+    margin-right: 15px;
+    vertical-align: middle;
+}

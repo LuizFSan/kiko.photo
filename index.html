@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lz Photography</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+       var rotate = false;
+       window.setTimeout(5000) = function setbackground(){
+  newImage = rotate ? 'url(/images/_LFS8221.jpg)' : 'url(/images/_LFS8170.jpg)' ;
+  rotate = !rotate;
+  document.getElementById('body').style.backgroundImage = newImage;
+}
+    </script>
+</head>
+
+<body id="body">
+    <div class="content">
+        <header>
+
+        </header>
+        <nav>
+
+        </nav>
+        <main>
+
+        </main>
+
+        <footer>
+            <table id="socialMedia">
+                <tr>
+                    <td>
+                        <a href="https://www.instagram.com/lfds.kiko/" target=”_blank”>
+                            <img id="instagram" src="/images/instagram.svg" alt="Instagram">
+                        </a>        
+                    </td>
+                    <td>
+                        <a href="https://www.facebook.com/photography.LuizF" target=”_blank”>
+                            <img id="facebook" src="/images/facebook.svg" alt="Facebook">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://gurushots.com/k_i_ko_2000/photos" target=”_blank”>
+                            <img id="gurushots" src="/images/gurushots.png" alt="Gurushots">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://www.youtube.com/user/uzumakiko/featured" target=”_blank”>
+                            <img id="youtube" src="/images/youtube.svg" alt="Youtube">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://www.behance.net/luizsantos41" target=”_blank”>
+                            <img id="behance" src="/images/behance.svg" alt="Behance">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://500px.com/p/Lfds_kiko" target=”_blank”>
+                            <img id="500px" src="/images/500px.svg" alt="500PX">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </footer>
+    </div>
+</body>
+
+</html>
